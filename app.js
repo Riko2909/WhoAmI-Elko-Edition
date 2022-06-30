@@ -57,7 +57,7 @@ for (let i = 1; i < 26; ++i) {
 }
 
 const elem = document.createElement("img")
-elem.src = `${elko_customers}${random_img}`;
+elem.src = `${elko_customers}${random_img <= 9 ? `0${random_img}` : random_img}`;
 elem.className = 'iam-img'
 
 const IAmName = document.createElement("p")
