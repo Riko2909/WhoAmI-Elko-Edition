@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+    background: rgb(32, 32, 32);
+    color: #fff;
+    transform: scale(0.95);
+}
+
+a {
+    color: #fff;
+}
+
+.game-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.abw {
+    max-width: 800px !important;
+}
+
+body {
+    transition: all 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.grid-img {
+    padding: 0.8em;
+    text-align: center;
+    display: inline-grid;
+}
+
+
+.disabled {
+    transition: all 0.2s ease-in-out;
+    filter: grayscale(1);
+    transform: scale(0.9);
+}
+
+.img-wrapper {
+    max-width: 650px;
+}
+
+.iam {
+    padding-left: 50px;
+    text-align: center;
+}
